@@ -15,11 +15,13 @@ $ git clone https://github.com/bidbanRG/fictious-online-store-api.git
    # for npm
       $ npm install 
    # for yarn
-      $ yarn 
+      $ yarn
+
 3.Set up the environment variables:
     add **.env** file at root of your project:
-    i: MONGO_DB_URL=<your-mongodb-connection-string>
-   ii: ACCESS_SECRET_TOKEN=<your-jwt-secret-key>
+    -> MONGO_DB_URL
+    -> ACCESS_SECRET_TOKEN
+    -> PORT (if you want to add your port number otherwise the default port is 8000)
     
 4. Start the server:
    $ npm start
