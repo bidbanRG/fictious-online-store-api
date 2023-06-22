@@ -11,7 +11,9 @@
 $ git clone https://github.com/bidbanRG/fictious-online-store-api.git
 
 2. Install the dependencies:
+
    $ cd fictious-online-store
+
    # for npm
       $ npm install 
    # for yarn
