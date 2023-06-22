@@ -18,7 +18,8 @@ $ git clone https://github.com/bidbanRG/fictious-online-store-api.git
       $ yarn
 
 3.Set up the environment variables:
-    add **.env** file at root of your project:
+    
+  add **.env** file at root of your project:
     -> MONGO_DB_URL
     -> ACCESS_SECRET_TOKEN
     -> PORT (if you want to add your port number otherwise the default port is 8000)
